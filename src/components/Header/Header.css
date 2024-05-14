@@ -1,0 +1,43 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white; /* Adicione uma cor de fundo para o cabeçalho se necessário */
+  z-index: 1000; /* Ajuste o valor de z-index conforme necessário */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adicione uma sombra se desejar */
+}
+  .logo img {
+    width: 80px; /* ajuste o tamanho conforme necessário */
+    margin-left: 50px;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .menu ul li {
+    margin-left: 50px; /* ajuste a margem conforme necessário */
+  }
+  
+  .menu ul li:first-child {
+    margin-left: -10%;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+   
+  }
+  
+  .link-orange {
+    text-decoration: none;
+    color: orange;
+   
+  }
